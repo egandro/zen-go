@@ -2,9 +2,10 @@ package zen_test
 
 import (
 	"encoding/json"
-	"github.com/gorules/zen-go"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/egandro/zen-go"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestZenDecision_EvaluateWithOpts(t *testing.T) {

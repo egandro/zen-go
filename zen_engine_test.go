@@ -3,12 +3,13 @@ package zen_test
 import (
 	"encoding/json"
 	"errors"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"path"
 	"testing"
 
-	"github.com/gorules/zen-go"
+	"github.com/stretchr/testify/assert"
+
+	"github.com/egandro/zen-go"
 )
 
 func readTestFile(key string) ([]byte, error) {
